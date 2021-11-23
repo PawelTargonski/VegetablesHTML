@@ -8,3 +8,46 @@ body {
     margin: 0 auto;
     width: 1200px;
 }
+.page-header .container{
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page-nav-list{
+    display: flex;
+}
+.page-nav-list li{
+    margin-left: 20px;
+}
+.page-nav-list a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #8E9696;
+    font-weight: 600;
+}
+.page-nav-list a:hover{
+    color: #213131;
+}
+.banner{
+    height: 560px;
+    background-image: url(../images/banner-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+.banner-title{
+    font-size: 57px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.banner-title span{
+    text-decoration: underline;
+    font-weight: 400;
+    opacity: 0.6;
+}
