@@ -81,3 +81,30 @@ body {
     display: flex;
     justify-content: space-around;
 }
+.page-footer{
+    height: 180px;
+    background: #F2F2F2;
+}
+.page-footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.page-footer-nav-list{
+    display: flex;
+}
+.page-footer-nav-list li{
+    margin-left: 20px;
+}
+.page-footer-nav-list a{
+    text-decoration: none;
+    color: #8E9696;
+}
+.page-footer-nav-list a:hover{
+    color: #F35044;
+}
+.page-footer-copyright{
+    color: #B6B6B6;
+    font-style: italic;
+}
